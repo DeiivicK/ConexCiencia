@@ -199,10 +199,32 @@ p{
     text-decoration:none;
     border-radius:10px;
     transition:0.3s;
+    
 }
 
 .testimonios a:hover{
     background:#0d47a1;
+}
+.instagram-media{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap: 30px;px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.contenedor-videos-ig {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap; 
+}
+
+.video-ig {
+    width: 100%;
+    max-width: 350px; 
 }
 
 #contacto p{
